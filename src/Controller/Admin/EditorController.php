@@ -18,7 +18,7 @@ final class EditorController extends AbstractController
         return $this->render('admin/editor/index.html.twig');
     }
 
-    #[Route('/new', name: 'app_admin_editor_new')]
+    #[Route('/new', name: 'app_admin_editor_new', methods: ['GET', 'POST'])]
     public function new(Request $request): Response
     {
         $editor = new Editor();
