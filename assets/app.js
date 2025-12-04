@@ -1,5 +1,6 @@
 import './stimulus_bootstrap.js';
 import './vendor/bootstrap/dist/css/bootstrap.min.css'
+import * as bootstrap from 'bootstrap';
 /*
  * Welcome to your app's main JavaScript file!
  *
