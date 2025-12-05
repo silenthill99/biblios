@@ -40,6 +40,7 @@ class BookType extends AbstractType
                 'class' => Author::class,
                 'choice_label' => 'name',
                 'multiple' => true,
+                "by_reference" => false,
             ])
         ;
     }
